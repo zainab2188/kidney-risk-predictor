@@ -1,2 +1,27 @@
-# kidney-risk-predictor
-An integrated health-tech initiative combining Machine Learning risk prediction, a Telegram bot, and patient awareness tools for Chronic Kidney Disease (CKD). 
+# 🏥 Kidney Health AI & Awareness Initiative
+
+مشروع متكامل يجمع بين الذكاء الاصطناعي والتوعية الصحية لمساعدة الأفراد على تقييم مخاطر أمراض الكلى وفهمها، وتسهيل الوصول للمعلومات الوقائية.
+
+---
+
+## 🚀 مكونات المشروع (Project Components)
+
+### 1. 🤖 بوت التليغرام وواجهة التفاعل (Telegram Bot & Gradio)
+* **Telegram Bot (renal.py):** برمجت وأطلقت بوت تليغرام أوتوماتيكياً باستخدام Pythonon** وربطه بنموذج الذكاء الاصطناعي؛ لخدمة التقييم الفوري للمؤشرات الحيوية وتقديم النصائح الوقائية.
+* **Gradio Interface (app.py):** واجهة تفاعلية بسيطة لتجربة النموذج واختبار المدخلات بسهولة.
+
+### 2. 🧠 نموذج الذكاء الاصطناعي (AI Model)
+* تم بناء وتدريب نموذج تعلم آلي بTensorFloworFscikit-learn-learn** للتنبؤ بمخاطر أمراض الكلى المزمنة.
+* تم تصدير النموذج في ملف model.h5 مع ملف المعايرة scaler.pkl.
+* كود التدريب وتجهيز البيانات متوفر بالكامل في Kidney_Disease_Prediction_Model.ipynb.
+
+### 3. 📄 الكتيب التوعوي الصحي (Health Awareness Guide)
+* صُمم وكتب دليل صحي توعوي شامِل بصيغة PDF (guide (1).pdf) لرفع الوعي حول صحة الكلى، وقراءة الفحوصات الطبية، والوقاية من الفشل الكلوي.
+
+---
+
+## 📊 الاستبيان التقييمي (Health Su[قيد التطوير / قيد النشر]:لنشر]:** يُعد حالياً استبيان ميداني لقياس مستوى الوعي بصحة الكلى قبل وبعد الاطلاع على الكتيب التوعوي، وسيتم تحليل البيانات واستخراج المؤشرات فور اكتماله.
+
+---
+
+## 🛠️ التكنولوجيا المستخدمة (Tech SLanguages:uages:** PAI & ML: & ML:** TensorFlow, Scikit-learn, Pandas, Interfaces & Automation:ation:** Gradio, Python-Telegram-Bot
