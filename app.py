@@ -153,4 +153,4 @@ demo = gr.Interface(
 )
 
 if name == "main":
-  demo.launch()
+    demo.launch()
