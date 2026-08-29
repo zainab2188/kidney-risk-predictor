@@ -2,7 +2,7 @@ import urllib.parse
 import telebot
 from telebot import types
 
-TOKEN = "8519192093:AAFQYJTxSlDuLUxRbg2Bznx9qSVMYcm3OJI"
+
 bot = telebot.TeleBot(TOKEN)
 
 user_states = {}
