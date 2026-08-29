@@ -1,7 +1,12 @@
+import os
 import urllib.parse
 import telebot
 from telebot import types
+from dotenv import load_dotenv
 
+# تحميل التوكن بأمان من ملف .env
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
